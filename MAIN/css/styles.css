@@ -1,0 +1,113 @@
+:root{
+
+    --blanco: #fff;
+    --negro: #000;
+    --gris: #e1e1e1;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: var(--blanco);
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 1.6rem;
+    line-height: 2;
+}
+/*footer*/
+.form {
+    width: 100%;
+    height: auto;
+    background-color: var(--negro);
+    margin-bottom: 20px;
+}
+.form h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: var(--gris);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/*navbar */
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: var(--negro);
+    border-bottom: 1px solid #cccccc;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--blanco);
+}
+.navbar ul li a:hover {
+    color: var(--gris);
+}
+
+/* Globales */
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h4 {
+    line-height: 1.2;
+}
+h1{font-size: 4.8rem;}
+h2{font-size: 4rem;}
+h3{font-size: 3.2rem;}
+h4{font-size: 2.8rem;}
+.container__main{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--gris);
+}
+/* Utilidades */
+.text-center{text-align: center;}
+
+/* Header */
+.bar__logo{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bar__logo img{
+    border-radius: 4rem;
+}
+.header__text h4{
+    font-weight: 100;
+}
+
+/* footer */
+.contactanos{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-self: center;
+}
+.contactanos textarea{
+    margin-top: 2rem;
+}
