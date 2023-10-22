@@ -1,0 +1,14 @@
+.footer{
+    display: grid;
+    background-color: var(--negro);
+    grid-template-columns: repeat(2,1fr);
+}
+.links li, .Faqs li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.links li a, .Faqs li a{
+    color: var(--blanco);
+}

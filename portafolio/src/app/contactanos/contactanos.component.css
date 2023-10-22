@@ -3,36 +3,39 @@
     flex-direction: column;
     width: 50%;
     justify-self: center;
+    font-size: 1.4rem;
 }
 .contactanos textarea{
     margin-top: 2rem;
 }
-footer form{
+.contacto form{
     display: grid;
+    margin-top: 2rem;
+}
+.contacto h2, .contacto h3{
+    margin: 0;
+}
+.contacto h3{
+    font-weight: 100;;
 }
 .form {
     width: 100%;
     height: auto;
     background-color: var(--negro);
-    margin-bottom: 20px;
-}
-.form h1 {
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .form input, .form textarea {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    margin-bottom: 2rem;
 }
 .form input[type="submit"] {
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     background-color: var(--gris);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     cursor: pointer;
 
 }
