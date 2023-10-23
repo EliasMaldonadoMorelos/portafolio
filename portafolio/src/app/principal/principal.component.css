@@ -1,5 +1,39 @@
 .articles{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;
+    justify-items: flex-start;
+}
+.empresa h3{
+    margin-top: 0;
+}
+.proyecto img{
+    width: 28rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+}
+.proyecto--nombre{
+    position: absolute;
+    margin-top: -5rem;
+    background-color: red;
+    font-size: 1.4rem;
+}
+@media (min-width:768px){ 
+    .articles{
+       grid-template-columns: repeat(4,1fr);
+       justify-items: center;
+    }
+    .articles:hover > .proyecto:not(:hover){
+        filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+    }
+    .proyecto img:hover{
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        transform-origin: center;
+        transition: 
+        filter 200ms linear,
+        transform 200ms linear;
+        transform: scale(1.05) translateZ(0);
+        cursor: pointer;
+    }
 }
