@@ -1,9 +1,10 @@
 .container{
-    width: 100rem;
     position: relative;
     display: grid;
-    justify-self: center;
+    justify-items: center;
     top: 5rem;
+    height: 0;
+    row-gap: 1rem;
 }
 .proyecto2{
     display: none;
@@ -11,6 +12,7 @@
 
   @media (min-width:768px){ 
     .container{
+        width: 100rem;
         grid-template-columns: repeat(3,1fr);
     }
     .container .article .proyecto.proyecto2{
