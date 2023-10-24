@@ -3,6 +3,9 @@
     --blanco: #fff;
     --negro: #000;
     --gris: #e1e1e1;
+    --gris-oscuro: #333;
+    --rosa-pastel: #f0f;
+    --celeste-pastel: #0ff;
 
 }
 
@@ -11,6 +14,9 @@ html{
     font-size: 62.5%;
     background-color: var(--blanco);
     overflow-x: hidden;
+}
+app-principal{
+    display: grid;
 }
 *, *:before, *:after{
     box-sizing: inherit;
