@@ -2,8 +2,6 @@
     position: relative;
     display: grid;
     justify-items: center;
-    top: 5rem;
-    height: 45rem;
     row-gap: 1rem;
 }
 .container__cont span p{
@@ -21,6 +19,8 @@
 }
 @media (min-width:768px){ 
     .container{
+        height: 45rem;
+        top: 5rem;
         width: 100rem;
         grid-template-columns: repeat(3,1fr);
     }
