@@ -17,6 +17,7 @@ html{
 }
 app-principal{
     display: grid;
+    height: 100rem;
 }
 *, *:before, *:after{
     box-sizing: inherit;
@@ -24,6 +25,7 @@ app-principal{
 body{
     font-family: 1.6rem;
     line-height: 2;
+    overflow-x: hidden;
 }
 /* Globales */
 a {

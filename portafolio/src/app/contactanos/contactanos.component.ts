@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactanosComponent implements OnInit {
 
+  persona = {
+    nombre: '',
+    
+  }
+
   constructor() { }
 
   ngOnInit() {
