@@ -11,4 +11,5 @@
 }
 .links li a, .Faqs li a{
     color: var(--blanco);
+    cursor: pointer;
 }

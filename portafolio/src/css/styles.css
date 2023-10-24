@@ -17,7 +17,6 @@ html{
 }
 app-principal{
     display: grid;
-    height: 100rem;
 }
 *, *:before, *:after{
     box-sizing: inherit;
@@ -31,6 +30,10 @@ body{
 a {
     text-decoration: none;
 }
+.active{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
 h1,h2,h3,h4 {
     line-height: 1.2;
 }
@@ -42,11 +45,12 @@ h4{font-size: 2.8rem;}
     max-width: 120rem;
     margin: 0 auto;
     background-color: var(--gris);
-    display: grid;
 }
+
 /* Utilidades */
 .text-center{text-align: center;}
 .dp_grid{display: grid;}
+
 /* Header */
 .bar__logo{
     display: flex;
